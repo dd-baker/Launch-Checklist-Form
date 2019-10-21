@@ -26,6 +26,7 @@ div {
     width: 50%;
     border: 3px solid black;
     padding: 10px;
+    visibility: hidden;
 }
 
 #missionTarget img {
@@ -51,3 +52,7 @@ button {
     height: 30px;
     margin: 10px 0;
 }
+
+#launchStatus {
+list-style: none
+  }

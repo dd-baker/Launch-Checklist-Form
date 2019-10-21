@@ -25,18 +25,16 @@
                     <label>Cargo Mass (kg) <input type="text" name="cargoMass"/></label>
                 </div>
                 <button id="formSubmit">Submit</button>
-            </form>
-        </div>
-        <div id="launchStatusCheck">
-            <h2 id="launchStatus">Awaiting Information Before Launch</h2>
-            <div  id="faultyItems">
-                <ol>
-                    <li id="pilotStatus">Pilot Ready</li>
-                    <li id="copilotStatus">Co-pilot Ready</li>
-                    <li id="fuelStatus">Fuel level high enough for launch</li>
-                    <li id="cargoStatus">Cargo mass low enough for launch</li>
-                </ol>
             </div>
+            </form>
+            <div id="launchStatusCheck">
+            <h2 id="launchStatus">Awaiting Information Before Launch</h2>
+                <ul id="faultySettings">
+                    <ul id="pilotStatus">&#9679 Pilot ready for launch.</ul>
+                    <ul id="copilotStatus">&#9679 Copilot ready for launch.</ul>
+                    <ul id="fuelStatus">&#9679 Fuel level high enough for launch.</ul>
+                    <ul id="cargoStatus">&#9679 Cargo mass low enough for launch.</ul>
+                </ul>
         </div>    
     </body>
 </html>
